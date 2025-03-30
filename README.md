@@ -18,3 +18,22 @@ To display the board, we had a loop that revolved around getting the user input.
 ### Contributions of Partner:
 
 A majority of our project was spent working together; very rarely did we split up on things. The only things we did individually were the randomizer (Owen) and the timer (me). We spent most of our time debugging the logic module since it was the most important for the game functionality. The graphics were also a bit difficult to align properly and have everything displayed well but we managed to get the hang of it. Overall, Owen was an incredible partner to work with and I would gladly work with him in the future.
+
+# User Manual
+
+### How to get the program to run:
+
+1.	Make sure all program files are downloaded, preferably in a folder for ease of access
+2.	Open up MARS and locate the blue folder icon on the top left and navigate to the folder containing the files.  
+3.	Click and open each file
+4.	Navigate to the settings tab on the top and select boxes “Assemble all files in directory” and “Initialize Program Counter to global ‘main’ if defined”. This is needed to make sure all files are running with each other so you don’t get any errors. 
+5.	You can now press the build icon, press the green arrow, and you can begin to play
+
+### How to play:
+
+1.	Follow the terminal at the bottom of the screen for instructions on how to play the game 
+2.	The game consists of a 4x4 table with numbers ranging from 0-15
+3.	The user can enter these numbers 1 at a time to match 2 blocks
+4.	If these blocks match, they appear permanently and cannot be guessed, if they don’t match, they temporarily appear for the user to memorize whats what
+5.	The user keeps guessing until they have found all matches
+6.	At the end, the user can play again or quit, starting the game again or ending the program
